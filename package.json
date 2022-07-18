@@ -18,14 +18,6 @@
         "typescript": "^4.7.4",
         "web-vitals": "^2.1.4"
     },
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/changelog",
-        "@semantic-release/github",
-        "@semantic-release/npm",
-        "@semantic-release/git"
-    ],
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -60,6 +52,14 @@
             "last 1 safari version"
         ]
     },
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/github",
+        "@semantic-release/npm",
+        "@semantic-release/git"
+    ],
     "devDependencies": {
         "@storybook/addon-actions": "^6.5.9",
         "@storybook/addon-essentials": "^6.5.9",
